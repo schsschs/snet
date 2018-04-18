@@ -1,8 +1,12 @@
-#ifndef __SNET_TYPES_H__
-#define __SNET_TYPES_H__
+/**
+@file  types.h
+@brief type definitions for ENet
+*/
+#ifndef __ENET_TYPES_H__
+#define __ENET_TYPES_H__
 
-typedef unsigned char snet_uint8;
-typedef unsigned short snet_uint16;
-typedef unsigned int snet_uint32;
+typedef unsigned char snet_uint8;       /**< unsigned 8-bit type  */
+typedef unsigned short snet_uint16;     /**< unsigned 16-bit type */
+typedef unsigned int snet_uint32;      /**< unsigned 32-bit type */
 
-#endif // !__TYPES_H__
+#endif /* __ENET_TYPES_H__ */

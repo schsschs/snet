@@ -33,6 +33,12 @@
     <ClInclude Include="callbacks.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="callbacks.c">

@@ -116,7 +116,9 @@
     <ClInclude Include="list.h" />
     <ClInclude Include="protocol.h" />
     <ClInclude Include="snet.h" />
+    <ClInclude Include="time.h" />
     <ClInclude Include="types.h" />
+    <ClInclude Include="utility.h" />
     <ClInclude Include="win32.h" />
   </ItemGroup>
   <ItemGroup>

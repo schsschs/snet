@@ -4,6 +4,8 @@
 */
 #ifdef _WIN32
 
+#pragma warning(disable : 4996)
+
 #define SNET_BUILDING_LIB 1
 #include "snet/snet.h"
 #include <windows.h>

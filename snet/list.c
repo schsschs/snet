@@ -62,9 +62,8 @@ size_t
 snet_list_size(SNetList * list)
 {
 	size_t size = 0;
-	SNetListIterator position;
 
-	for (position = snet_list_begin(list);
+	for (SNetListIterator position = snet_list_begin(list);
 		position != snet_list_end(list);
 		position = snet_list_next(position))
 		++size;

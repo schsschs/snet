@@ -10,7 +10,7 @@ static SNetCallbacks callbacks = { malloc, free, abort };
 int
 snet_initialize_with_callbacks(SNetVersion version, const SNetCallbacks * inits)
 {
-	if (version < SNET_VERSION_CREATE(1, 3, 0))
+	if (version < SNET_VERSION_CREATE(0, 0, 1))
 		return -1;
 
 	if (inits->malloc != NULL || inits->free != NULL)

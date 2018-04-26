@@ -24,4 +24,3 @@ extern void   snet_free(void *);
 /** @} */
 
 #endif /* __SNET_CALLBACKS_H__ */
-
